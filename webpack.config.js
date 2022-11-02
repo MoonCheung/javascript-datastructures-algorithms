@@ -1,10 +1,9 @@
 // @ts-check
 /* eslint-disable */
 const webpack = require('webpack');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');;
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const path = require('path');
 const env = require('yargs').argv.env;
-
 let libraryName = 'PacktDataStructuresAlgorithms';
 
 let plugins = [],
